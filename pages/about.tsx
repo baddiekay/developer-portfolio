@@ -8,7 +8,7 @@ export default function about() {
   return (
     <>
       <Head>
-        <title>Mozorozov | About</title>
+        <title>Foodies | About</title>
       </Head>
       <Wrapper pageIndex={2}>
         <div className="flex flex-col gap-12 lg:flex-row items-center justify-center mb-12 min-h-screen lg:mb-0 pt-28 lg:pt-0">
@@ -27,9 +27,8 @@ export default function about() {
             </div>
             <p className="text-WhiteGray text-sm mt-8 leading-7">
               {" "}
-              I am a passionate frontend developer with a creative eye for
-              design and a strong focus on delivering elegant and intuitive
-              interfaces. Excited to collaborate on new projects!
+              I am a foodie that loves everything about food and always love trying out new foods
+              I love mexican,Italian, Chinese,Jamaican food. I'm willing wants to try even more foods.
             </p>
             <div className="flex gap-8 mt-8">
               <Link
