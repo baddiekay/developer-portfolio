@@ -14,7 +14,7 @@ export default function Portfolio() {
   return (
     <>
       <Head>
-        <title>Mozorozov | Portfolio</title>
+        <title>Foodies | Portfolio</title>
       </Head>
       <Wrapper pageIndex={3}>
         <div className="flex flex-col pt-40 items-center text-center">
@@ -25,11 +25,10 @@ export default function Portfolio() {
             My Masterpiece Collections
           </div>
           <p className="text-WhiteGray text-sm mt-8 leading-7 max-w-3xl">
-            I specialize in developing custom web applications that cater to
-            diverse business needs, from e-commerce platforms to data
-            visualization dashboards, using the latest technologies and agile
-            methodologies to deliver exceptional user experiences and measurable
-            business outcomes.
+            We foodies love to explore and enjoy food. We are passionate about trying
+            new dishes and discovering new flavors.We are always on a lookout for new and exciting
+            restaurants, recipes, and experimenting with different cuisines, also appreciating
+            the art and science of food preparation and presentation.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 my-8 md:px-8">
             {projects.map((project) => (
